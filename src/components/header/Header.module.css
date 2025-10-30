@@ -6,6 +6,16 @@ header {
   align-items: center;
   margin: auto;
   height: 50px;
+  position: relative
+}
+
+h1 {
+  margin: 0;
+  font-size: 12px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
 }
 
 a {

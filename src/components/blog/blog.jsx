@@ -3,6 +3,7 @@ export const Banner = () => {
   return (
     <>
       <section className={styles.banner}>
+        <span>Full-width banner image</span>
       </section >
     </>
   )
@@ -11,12 +12,15 @@ export const Banner = () => {
 export const BlogContent = () => {
   return (
     <>
-      <ul className={styles.blogContent}>
-        <li className={styles.blogContent__item}></li>
-        <li className={styles.blogContent__item}></li>
-        <li className={styles.blogContent__item}></li>
-        <li className={styles.blogContent__item}></li>
-      </ul>
+      <section className={styles.blogContent}>
+        <h2>Blog</h2>
+        <ul>
+          <li className={styles.blogContent__item}></li>
+          <li className={styles.blogContent__item}></li>
+          <li className={styles.blogContent__item}></li>
+          <li className={styles.blogContent__item}></li>
+        </ul>
+      </section>
     </>
   )
 }
@@ -24,11 +28,14 @@ export const BlogContent = () => {
 export const News = () => {
   return (
     <>
-      <ul className={styles.news}>
-        <li className={styles.news__item}></li>
-        <li className={styles.news__item}></li>
-        <li className={styles.news__item}></li>
-      </ul>
+      <section className={styles.news}>
+        <h2>News</h2>
+        <ul>
+          <li className={styles.news__item}></li>
+          <li className={styles.news__item}></li>
+          <li className={styles.news__item}></li>
+        </ul>
+      </section>
     </>
   )
 }
