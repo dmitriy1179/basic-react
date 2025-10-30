@@ -1,0 +1,7 @@
+#root {
+  max-width: 1160px;
+  margin: 0 auto;
+  min-height: calc(100vh - 40px);
+  padding: 20px;
+}
+
