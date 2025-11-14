@@ -1,0 +1,11 @@
+.home__link {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 30px;
+  color: #737373;
+
+  &:hover {
+    color: #000000;
+  }
+}

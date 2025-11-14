@@ -1,0 +1,19 @@
+.post {
+  background-color: #D9D9D9;
+  margin-top: 20px;
+  padding: 0 25px 25px;
+
+  .post__title {
+    margin: 0;
+    text-align: center;
+    padding-block: 20px;
+  }
+
+  .post__content {
+    margin: 0;
+    height: 50vh;
+    text-align: center;
+    align-content: center;
+    background-color: #FCC2C2;
+  }
+}

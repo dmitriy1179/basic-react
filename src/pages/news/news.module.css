@@ -1,0 +1,46 @@
+.title {
+  text-align: center;
+  color: #737373;
+}
+
+.news {
+  background-color: #D9D9D9;
+  padding: 25px;
+
+  .news__content {
+    margin-block: 25px;
+
+    .news__link {
+      width: 100%;
+      border: 1px solid #FFFFFF;
+      text-decoration: none;
+      color: #737373;
+      transition: all 0.5s;
+
+      &:hover {
+        color: #000000;
+        background: #C2C2C2;
+
+        .news__desc {
+          background-color: #A8BBED;
+        }
+      }
+
+      .news__title {
+        margin: 0;
+        padding-block: 20px;
+        text-align: center;
+      }
+
+      .news__desc {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        height: 45vh;
+        background-color: #BDCDF6;
+        align-content: center;
+        transition: all .5s;
+      }
+    }
+  }
+}
